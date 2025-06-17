@@ -1,0 +1,64 @@
+# --------------------------
+# Unity 빌드 관련 캐시/불필요 파일
+# --------------------------
+
+# 라이브러리: 플랫폼/에디터별 캐시. 공유 X
+Library/
+# Temp: 임시 파일들
+Temp/
+# 빌드 결과물
+Build/
+# 빌드 중 생성되는 obj, bin 폴더 (Mono/IL2CPP)
+obj/
+# 로컬에서 자동 생성되는 시스템 파일
+logs/
+memoryCaptures/
+
+# --------------------------
+# VSCode/Visual Studio 설정
+# --------------------------
+
+# VSCode 개인 설정 (프로젝트에는 불필요)
+.vscode/
+# Visual Studio 캐시
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+
+# --------------------------
+# Mac/Windows 시스템 파일
+# --------------------------
+
+# macOS Finder 메타파일
+.DS_Store
+# Windows thumbnail 캐시
+Thumbs.db
+# Unity Hub에서 자동 생성되는 폴더 (필요없음)
+UnityGenerated/
+
+# --------------------------
+# Unity 자체 설정 파일 중 제외해도 되는 것
+# --------------------------
+
+# 빌드 시 자동 생성되는 파일
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# --------------------------
+# JetBrains Rider, MonoDevelop 등
+# --------------------------
+.idea/
+*.sln.iml
+
+# --------------------------
+# 유니티 Collaborate 사용 시 충돌 방지
+# --------------------------
+/.collabignore
